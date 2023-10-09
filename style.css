@@ -279,6 +279,53 @@ nav .menu-list li a:hover{
 .AboutSection{
         height: 1000px;
 }
+@media (max-width:1000px) {
+        .AboutSection{
+                height: 1200px;
+        }
+        html{
+                overflow-x: hidden;
+        }
+        .courses{
+                flex-direction: column;
+                margin-top: 100px;
+                text-align: center;
+                color: #01415a;
+                display: flex;
+                align-items: center;
+                margin-left: 25%;
+        }
+        .mainSection div h2 span{
+                font-size: 60px;
+                position: static;
+                text-align: left;
+                margin-left: 20px;
+        }
+        .coursesHeader{
+                margin-right: 25%;
+                color: #fff;
+                text-align: center;
+                font-size: 40px;
+                margin: 30px 25% 0 0;
+                padding-top: 0 !important;
+        }
+        .seemorebtn{
+                margin-left: -80%;
+        }
+        .AboutLearnerAcademy{
+                padding: 20px 0 !important;
+                background: #00abf0;
+                margin: 20px 0 !important;
+        }
+        .coursesSection{
+                background-color: #00abf0;
+        }
+}
+@media (max-width:380px) {
+        .AboutSection{
+                height: 1400px;
+        }
+}
 .AboutLearnerAcademy{
         color: #fff;
         padding: 50px 0;
